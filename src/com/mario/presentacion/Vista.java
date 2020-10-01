@@ -9,7 +9,7 @@ import com.mario.negocio.LogicaNegocio;
 public class Vista {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
-		System.out.println("introduce el nombre de la persona a la que aplicarle el descuento" + "\n");
+		System.out.println("introduce el nombre de la persona que quieres conocer cuantos coches tiene" + "\n");
 		String nombre = sc.next();
 		LogicaNegocio n = new LogicaNegocio();
 		try {
