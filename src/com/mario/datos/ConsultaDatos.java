@@ -12,8 +12,6 @@ import java.util.List;
 
 public class ConsultaDatos {
 	
-	
-	String nombre;
 
 	public List<String> consultaCoches() throws IOException {
 		List<String> datos = new ArrayList<>();
