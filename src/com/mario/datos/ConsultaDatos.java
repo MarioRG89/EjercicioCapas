@@ -14,10 +14,7 @@ public class ConsultaDatos {
 	
 	
 	String nombre;
-	public ConsultaDatos(String nombre){
-		this.nombre=nombre;
-	}
-	
+
 	public List<String> consultaCoches() throws IOException {
 		List<String> datos = new ArrayList<>();
 		File file = new File("C:\\Users\\mario\\Desktop\\ejercicioCapas.txt");
